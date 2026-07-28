@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vi | Genshin Impact Blogger</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="loader-wrapper">
+        <div class="loader">
+            <div class="text"><span>Loading</span></div>
+            <div class="text"><span>Loading</span></div>
+            <div class="text"><span>Loading</span></div>
+            <div class="text"><span>Loading</span></div>
+            <div class="text"><span>Loading</span></div>
+            <div class="text"><span>Loading</span></div>
+            <div class="text"><span>Loading</span></div>
+            <div class="text"><span>Loading</span></div>
+            <div class="text"><span>Loading</span></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">Vi</div>
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#gallery">Видео</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="avatar-container">
+                <img src="https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/edaffea743a0969526d19cdbc2503db3~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=ec883327&x-expires=1785304800&x-signature=YQHebEGfgh2um%2BmhI7TW6%2F2Z8CI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8" alt="Vi avatar" class="avatar">
+            </div>
+            <h1>Vi</h1>
+            <p class="subtitle">Genshin Impact Блогерша</p>
+            <a href="#gallery" class="btn">Смотреть контент</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Привет! Я <strong>Vi</strong>, и добро пожаловать в мой мир Тейвата!</p>
+                    <p>Я снимаю контент по Genshin Impact: гайды, обзоры персонажей и просто атмосферные видео из игры. Моя цель — делиться любовью к этой игре с вами.</p>
+                    <p>Подписывайся, чтобы не пропустить новые видео и стримы!</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-star"></i>
+                        <span>Genshin</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-video"></i>
+                        <span>Content</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-heart"></i>
+                        <span>Teyvat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Мои Видео</h2>
+            <div class="placeholder-container">
+                <div class="placeholder-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Раздел в разработке</h3>
+                    <p>Совсем скоро здесь появятся мои лучшие видео по Genshin Impact. Следите за обновлениями!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Vi</div>
+                <p>Присоединяйся к моему путешествию!</p>
+                <div class="social-links">
+                    <a href="https://www.tiktok.com/@v_i_via" target="_blank" class="social-btn tt">
+                        <i class="fab fa-tiktok"></i> TikTok
+                    </a>
+                </div>
+                <div class="footer-bottom">
+                    &copy; 2026 Vi. Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                const loader = document.getElementById('loader-wrapper');
+                loader.style.opacity = '0';
+                setTimeout(function() {
+                    loader.style.display = 'none';
+                }, 500);
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
